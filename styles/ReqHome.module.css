@@ -1,0 +1,120 @@
+.container{
+    padding-top:20px;
+    padding-left: 20px;
+    margin-top:0px;
+    width:100%;
+    background-image: url('https://www.atheer.om/wp-content/uploads/2017/01/IMG_3904.jpg');
+    background-repeat: no-repeat;
+    background-position: center 290px;
+    
+}   
+    
+    .title{
+        margin-top:-28px;
+        text-align: center;
+    }
+    
+    .title h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .title p{
+        font-size:25px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+    }
+    .container button{
+        text-align: center;
+        margin-top:5px;
+        font-size: 23px;
+        -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+        box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+        border-radius: 15px;
+        padding:5px 20px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 350px;
+        
+    }
+    .img{
+        margin-top:-60px;
+        margin-left:20px;
+        width:200px;
+        height:200px;
+    }
+    .container button a{
+        color:white;
+        text-decoration: none;
+    }
+
+.modal{
+    max-width:33%;
+    width:10%;
+    position:absolute;
+    top:150px;
+    left:440px;
+    padding:22px;
+    border-radius:10px;
+    border:1px solid lightgray;
+    background-color: rgb(255, 255, 255);
+}
+    .profile{
+    margin-top:-10px;
+    position: relative;
+    direction: rtl;
+    }
+    #btn{
+        float: right;
+        margin-right:5px;
+        border-radius: 14px;
+        padding:4px 16px;
+        font-size:16px;
+    }
+    .contain{
+        
+            width:100%;
+            border:none;
+            opacity:1;
+        
+    }
+    .img{
+        margin-top:-60px;
+        margin-left:20px;
+        width:200px;
+        height:200px;
+        display: flex;
+        
+    }
+    .img2{
+        float:right;
+        width:150px;
+        height:150px;
+        margin-right:25px;
+        position: absolute;
+        right:0;
+        top:0;
+    }
+@media screen and (max-width:768px) {
+    .container{
+        padding:0;
+    }
+    .title{
+        margin-top:2px;
+        text-align: center;
+    }
+    .img{
+        margin-top:-40px;
+        margin-left:0px;
+        width:90px;
+        height:90px;
+    }
+    .img2{
+        float:right;
+        width:80px;
+        height:80px;
+        margin-right:12px;
+        
+        position: absolute;
+        right:0;
+        margin-top:20px;
+    }
+}
+

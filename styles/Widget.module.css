@@ -1,0 +1,83 @@
+#container{
+    margin-left: -106px;
+    width:125%;
+    
+}
+#widget{
+    width:24%;
+    margin-top:5px;
+    margin-left:10px;
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    border-radius: 10px;
+    height:130px;
+}
+#widget:hover{
+  background-color: lightblue;
+}
+.left , .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .title {
+      font-weight: bold;
+      font-size: 14px;
+      color: rgb(160, 160, 160);
+    }
+
+    .counter {
+      font-size: 28px;
+      font-weight: 300;
+      text-align: center;
+      margin-left:80px;
+    }
+
+    .link {
+      width: max-content;
+      font-size: 12px;
+      border-bottom: 1px solid gray;
+    }
+    .link:hover{
+        color:blue;
+    }
+
+    .percentagePositive {
+      display: flex;
+      align-items: center;
+      font-size: 14px;
+      color: green;
+      
+    }
+
+    .icon {
+      font-size: 18px;
+      padding: 5px;
+      border-radius: 5px;
+      align-self: flex-end;
+    }
+
+  @media screen  and (max-width:768px){
+    #container{
+      margin-left:0px;
+      width:100%;
+      position: relative;
+      direction: rtl;
+      right:2px;
+  }
+  #widget{
+      width:80%;
+      margin-top:5px;
+      margin-left:10px;
+      padding:10px;
+      display:flex;
+      justify-content: space-between;
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      border-radius: 10px;
+      height:124.5px;
+  }
+  }

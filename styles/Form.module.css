@@ -1,0 +1,81 @@
+.form{
+    margin-top:-50px;
+    direction: rtl;
+    padding-right: 40px;
+    width:100%;
+}  
+    .form h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-right:-3px;
+   }
+   .img2{
+    float:right;
+    width:150px;
+    height:150px;
+    margin-right:25px;
+    position: absolute;
+    right:0;
+    top:0;
+    }
+    .form h2{
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top:28px;
+        margin-bottom: -5px;
+    }
+    .form label{
+        font-size: 18px;
+        margin-right: 5px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .form input{
+        margin-bottom: -5px;
+    }
+    #submit{
+        text-align: center; 
+        margin-top: 25px;
+    }
+        #submit button{
+            margin-right: -18px;
+            font-size:20px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+@media screen and (max-width:768px){
+    .form div input{
+        margin-bottom: -8px;
+        width:90%;
+    }
+    .form{
+        margin-top:-10px;
+        margin-right:-8px;
+    }
+    .form h1{
+        margin-right:-12px;
+    }
+    .form select {
+        width:90%;
+    }
+    .form select option{
+        font-size:12px; 
+    }
+    .form h2{
+        font-weight: 700;
+        margin-right:-8px;
+    }
+    #submit{
+        
+        margin-bottom:200px;
+    }
+    .img2{
+        float:right;
+        width:80px;
+        height:80px;
+        margin-right:12px;
+        
+        position: absolute;
+        right:0;
+        margin-top:20px;
+    }
+    
+}

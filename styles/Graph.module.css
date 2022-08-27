@@ -1,0 +1,41 @@
+.graph{
+    flex: 1;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+  
+  border-radius: 15px;
+  
+}
+.lines{
+  width:400;
+  height:400;
+}
+.container{
+  margin:-420px 5px 5px 302px;
+  width:75%;
+  height: auto;
+}
+
+@media screen and (max-width:768px) {
+  .graph{
+    flex: 0;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: gray;
+  margin:0px;
+  border-radius: 15px;
+  width:120%;
+  
+}
+.container{
+  
+  width:109%;
+  max-width: 150%;
+  margin:5px 5px 5px -90px;
+  margin-top: 10px;
+}
+
+}

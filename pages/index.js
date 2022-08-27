@@ -6,7 +6,7 @@ export default function Index() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>GHASAN Web</title>
       </Head>
       <Body />
       
